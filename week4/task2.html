@@ -1,0 +1,86 @@
+<html>
+
+  <head>
+    <head>
+	<style>
+	.card {
+    border: 1px solid blue;
+    width: 45%; 
+    margin: 5px;
+  }
+
+  .info {
+    display: inline-block;
+  }
+
+  .info a {
+    position: relative;
+    bottom: 45px;
+    font-size: 20px;
+  }
+
+  .info .desc {
+    position: relative;
+    bottom: 45px;
+    font-size: 17px;
+  }
+
+  .card img {
+    padding: 5px;
+  }
+
+  .price {
+    position: relative;
+    bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  @media (max-width: 500px) {
+    .card {
+    width: 100%; 
+    display: inline-block;
+  }
+  .price {
+    padding-left: 350px;
+  }
+    img {
+      display: none;
+    }
+
+    .desc {
+      display: none;
+    }
+  }
+	</style>
+    </head>
+  </head>
+
+  <body>
+    <div class="card">
+      <img src="http://via.placeholder.com/100x100"/>
+      <section class="info">
+        <a href="#">Mercedes C100</a>
+        <div class="desc">В хорошем состоянии</div>
+        <div class="price">10.000$</div>
+      </section>
+    </div>
+    <div class="card">
+      <img src="http://via.placeholder.com/100x100"/>
+      <section class="info">
+        <a href="#">BMW X5</a>
+        <div class="desc">В хорошем состоянии</div>
+        <div class="price">10.000$</div>
+      </section>
+    </div>
+    <div class="card">
+      <img src="http://via.placeholder.com/100x100"/>
+      <section class="info">
+        <a href="#">Audi A8</a>
+        <div class="desc">В хорошем состоянии</div>
+        <div class="price">10.000$</div>
+      </section>
+    </div>
+  </body>
+
+</html>
